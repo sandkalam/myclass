@@ -1,6 +1,7 @@
 /* import */
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Permanent+Marker&family=Fredoka&display=swap");
+
+
 /* header */
 header {
   z-index: 1;
@@ -27,7 +28,7 @@ header .navbar-dark .navbar-nav .nav-link:focus,
     font-weight: 700;
 }
 .list-group > .teksty {
-  font-size: x-large;
+  font-size: larger !important;
   font-family: 'Fredoka', sans-serif;
 }
 /* end-header */
