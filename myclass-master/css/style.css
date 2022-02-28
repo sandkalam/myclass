@@ -1,0 +1,215 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Permanent+Marker&display=swap");
+
+/* header */
+header {
+  z-index: 1;
+}
+header nav {
+  background-color: #0779e4;
+}
+header .navbar-brand img {
+  width: 180px;
+}
+header .navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #005082;
+}
+.navbar-toggler {
+  border: none;
+}
+.typewritter a {
+  color: #fff;
+  text-decoration: none;
+}
+.teksty{
+  font-size: large;
+    font-weight: 700;
+}
+/* end-header */
+/* carousel */
+#artikel1 {
+  border: 2px #fff solid;
+}
+
+.carousel-item img {
+  height: 570px;
+  object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+/* end-carousel */
+section {
+  overflow: hidden;
+}
+.top-article {
+  color: white;
+  background-color: #0779e4;
+}
+.icon-article i {
+  font-size: 9em;
+}
+.ilustrasi {
+  max-width: 43em;
+  height: auto;
+  padding: 1rem;
+}
+.foto-thumb {
+  margin: 0 15px;
+}
+.foto-thumb img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* card */
+.card {
+  width: 15rem;
+  height: 20rem;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card img {
+  border-radius: 50%;
+  border: 1px #0779e4 solid;
+  width: 9em;
+  height: 9em;
+  object-fit: cover;
+  background-size: cover;
+}
+.card-right {
+  display: none;
+}
+.card-left p {
+  text-transform: capitalize;
+}
+.card li {
+  font-size: 11px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  object-fit: cover;
+  margin: 2px;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photo-size{
+  height: 9rem !important;
+  width: 9rem !important;
+}
+
+/* footer */
+footer {
+  background-color: #0779e4;
+  color: white;
+}
+footer a {
+  color: #ccc;
+}
+footer img {
+  width: 180px;
+}
+/* phone */
+@media (max-width: 700px) {
+  .carousel-item img {
+    max-height: 200px;
+  }
+  .ilustrasi {
+    width: 100%;
+  }
+  .modal-content {
+    width: 100%;
+  }
+}
