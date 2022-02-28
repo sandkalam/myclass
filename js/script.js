@@ -235,7 +235,7 @@ var vmurid = new Vue({
         alias: "sen",
         jk: "L",
         jabatan: "Murid",
-        pesan: "semoga teman-temanku sukses biar masa depan punya orang dalem",
+        pesan: "Basic learning is the foundation to become a master, socializing is the roof and love is the pillar",
         img: "sendi",
       },
       {

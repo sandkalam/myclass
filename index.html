@@ -76,7 +76,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
-                  href="https://sandykalamuddin.github.io/kelasku"
+                  href="."
                   >Home</a
                 >
               </li>
@@ -707,12 +707,8 @@
               </div>
               <div class="card-right">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    Tanggal Lahir : {{murid.lahir}}
-                  </li>
-                  <li class="list-group-item">Jabatan: {{murid.jabatan}}</li>
-                  <li class="list-group-item">Alias: {{murid.alias}}</li>
-                  <li class="list-group-item">Pesan : "{{murid.pesan}}"</li>
+                  <li class="list-group-item teksty">"{{murid.pesan}}"</li>
+                  <li class="list-group-item"> {{murid.alias}} </li>
                 </ul>
               </div>
             </div>
@@ -748,11 +744,9 @@
               </div>
               <div class="card-right">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Jabatan: {{guru.jabatan}}</li>
-                  <li class="list-group-item">
-                    Mata Pelajaran : {{guru.pelajaran}}
+                  <li class="list-group-item teksty">"{{guru.pesan}}"</li>
+                  <li class="list-group-item">{{guru.jabatan}} - {{guru.pelajaran}}
                   </li>
-                  <li class="list-group-item">Pesan : "{{guru.pesan}}"</li>
                 </ul>
               </div>
             </div>
