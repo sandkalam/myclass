@@ -22,6 +22,10 @@ header .navbar-dark .navbar-nav .nav-link:focus,
   color: #fff;
   text-decoration: none;
 }
+.teksty{
+  font-size: large;
+    font-weight: 700;
+}
 /* end-header */
 /* carousel */
 #artikel1 {
@@ -48,7 +52,7 @@ section {
   font-size: 9em;
 }
 .ilustrasi {
-  max-width: 48em;
+  max-width: 43em;
   height: auto;
   padding: 1rem;
 }
@@ -179,6 +183,11 @@ section {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+.photo-size{
+  height: 9rem !important;
+  width: 9rem !important;
 }
 
 /* footer */

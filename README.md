@@ -1,5 +1,5 @@
 ## SELAMAT DATANG DI WEBSITE 
-![enter image description here](https://raw.githubusercontent.com/sandykalamuddin/kelasku/master/img/dlogo.png)
+![foto logo](https://raw.githubusercontent.com/sandykalamuddin/kelasku/master/img/dlogo.png)
 ### [Multimedia 2](https://sandykalamuddin/kelasku)
 ini merupakan website mm2 angkatan 2018-2019.
 ada sekitar 37 orang yang berhasil lulus dari kelas ini, mereka adalah :
